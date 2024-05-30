@@ -8,14 +8,12 @@ public class  demo {
 
 	@Given("user should have login details")
 	public void user_should_have_login_details() {
-		
 		System.out.println("Inside Step- user have the login details");
 		throw new io.cucumber.java.PendingException();
 	}
 
 	@Given("present on login page")
 	public void present_on_login_page() {
-	
 		System.out.println("Inside Step- user is on  login page");
 		throw new io.cucumber.java.PendingException();
 	}
